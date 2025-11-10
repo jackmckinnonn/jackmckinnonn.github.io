@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+    <a href="../index.html">Home</a>
+    <a href="gallery.html">Stats</a>
+    <a href="links.html">Links</a>
+  </nav>
+
+  <h1>Quiz</h1>
+
+ 
+  <form action="action.html" method="get">
+
+  
+    <p>
+      <b>Enter your Name:</b><br>
+      <input type="text" name="username" maxlength="10">
+    </p>
+
+    <p>
+      <b>Who is the all-time receiving touchdown leader in the NFL?</b><br>
+      <input type="radio" name="touchdown_leader" value="Jerry Rice"> Jerry Rice<br>
+      <input type="radio" name="touchdown_leader" value="Calvin Johnson"> Calvin Johnson<br>
+      <input type="radio" name="touchdown_leader" value="Randy Moss"> Randy Moss
+    </p>
+
+
+    <p>
+      <b>What records does Jerry Rice hold?</b><br>
+      <input type="checkbox" name="records" value="receiving_tds"> Receiving Touchdowns<br>
+      <input type="checkbox" name="records" value="rushing_yards"> Rushing Yards<br>
+      <input type="checkbox" name="records" value="receiving_yards"> Receiving Yards
+    </p>
+
+   
+    <p>
+      <b>Who is the all-time receptions leader?</b><br>
+      <select name="receptions_leader">
+        <option value="Justin Jefferson">Justin Jefferson</option>
+        <option value="Randy Moss">Randy Moss</option>
+        <option value="Jerry Rice">Jerry Rice</option>
+      </select>
+    </p>
+
+
+    <fieldset>
+      <legend>Contact Info</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+    </fieldset>
+
+ 
+    <fieldset>
+      <legend>Feedback</legend>
+      <textarea name="feedback" rows="4" cols="30"></textarea>
+    </fieldset>
+<div class= ".button" >
+    <button type="submit">Submit</button>
+    <button type="reset">Clear</button>
+  </form>
+
+</body>
+</html>
