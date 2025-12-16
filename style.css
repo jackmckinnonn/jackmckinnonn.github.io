@@ -238,3 +238,37 @@ tbody tr:hover {
   background-color: #d9d9d9;
   cursor: pointer;
 }
+
+/* =======================
+   INTRO SECTION RESPONSIVE
+======================= */
+
+.intro-section {
+  max-width: 900px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.intro-section h2 {
+  font-size: 32px;
+  transition: font-size 0.2s ease;
+}
+
+/* Tablets & phones */
+@media (max-width: 768px) {
+  .intro-section {
+    max-width: 95%;
+    padding: 10px;
+  }
+
+  .intro-section h2 {
+    font-size: 22px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .intro-section h2 {
+    font-size: 18px;
+  }
+}
